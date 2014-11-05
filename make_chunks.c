@@ -12,7 +12,7 @@
 static int get_numchunks(char *);
 
 int main(int argc, char *argv[]) {
-	// expect one argument atleast.
+	// expect one argument at least.
 	if( argc < 2 ) {
 		fprintf(stderr,"usage: %s <input-file>", argv[0]);
 		exit(-1);
